@@ -1,4 +1,4 @@
-# Consulta CEP com Deplhi - ViaCEP
+# Consulta CEP com Delphi - ViaCEP
 
 ![Delphi Supported Versions](https://img.shields.io/badge/Delphi%20Supported%20Versions-10.3%20or%20later-blue)
 
