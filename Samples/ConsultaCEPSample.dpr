@@ -5,7 +5,7 @@ uses
   FMX.Forms,
   ConsultaCEP.Main in 'ConsultaCEP.Main.pas' {Form1},
   ConsultaCEP.Consulta in '..\Lib\ConsultaCEP.Consulta.pas',
-  ConsultaCEP.Logradouro in 'ConsultaCEP.Logradouro.pas';
+  ConsultaCEP.Logradouro in '..\Lib\ConsultaCEP.Logradouro.pas';
 
 {$R *.res}
 
