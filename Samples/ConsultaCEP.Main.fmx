@@ -1,0 +1,42 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'frmMain'
+  ClientHeight = 392
+  ClientWidth = 358
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Text = 'CEP'
+    TabOrder = 0
+  end
+  object edtCEP: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 8.000000000000000000
+    Position.Y = 32.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 112.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 2
+    Text = 'CEP'
+    OnClick = Button1Click
+  end
+  object mmRetorno: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 8.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 297.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Viewport.Width = 333.000000000000000000
+    Viewport.Height = 293.000000000000000000
+  end
+end
